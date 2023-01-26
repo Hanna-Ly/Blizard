@@ -13,8 +13,8 @@
     background-color: #add8e6;
   }
   
-  .bg-green {
-    background-color: #055542;
+  .bg-beige {
+    background-color: #F7F2E9;
   }
   
   .green{
@@ -27,9 +27,6 @@
   
   /* Main begin */ 
   
-  .bg-blue {
-    background-color: #D5DFFA;
-  }
   
   .bg-image {
       background-image: url('images/main_img.jpg');
@@ -82,6 +79,11 @@
   .orange-border {
     border-bottom: 1px solid;
     color: #F14C2A;
+  }
+  
+  .dark-border {
+    border-bottom: 1px solid;
+    color: black;
   }
   
   .orange{

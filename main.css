@@ -1,0 +1,333 @@
+.inline-gallery-container {
+    width: 100%;
+  
+    height: 0;
+    padding-bottom: 65%;
+  }
+  /*Same on all pages */
+  body {
+    background-color: #FFFFFF;
+  } 
+  
+  .bg-lightblue{
+    background-color: #add8e6;
+  }
+  
+  .bg-green {
+    background-color: #055542;
+  }
+  
+  .green{
+    color: #055542;
+  }
+  
+  .no_underline {
+    text-decoration: none;
+  }
+  
+  /* Main begin */ 
+  
+  .bg-blue {
+    background-color: #D5DFFA;
+  }
+  
+  .bg-image {
+      background-image: url('images/main_img.jpg');
+      height: 350px;
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
+  }
+  
+  
+  .badges-on-image {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: blue;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 25px;
+  }
+  
+  .badges-on-image2 {
+    position: absolute;
+    top: 10px;
+    right: 110px;
+    background: black;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 25px;
+  }
+  
+  .badges-on-image3 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orchid;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 25px;
+  }
+  
+  
+  
+  /* Main end */ 
+  
+  /* Rooms begin */ 
+  
+  .orange-border {
+    border-bottom: 1px solid;
+    color: #F14C2A;
+  }
+  
+  .orange{
+    color: #F14C2A;
+  }
+  /* Rooms ends */ 
+  
+  /* Specific room begin */ 
+  
+  
+  
+  .bg-orange {
+      background-color: #F2D2BD;
+  }
+  .customcontainer {
+      padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+      .customcontainer {
+        width: 760px;
+      }
+    }
+    @media (min-width: 992px) {
+      .customcontainer {
+        width: 980px;
+      }
+    }
+    @media (min-width: 1400px) {
+      .customcontainer {
+        width: 1370px;
+      }
+    }
+    .customcard {
+      padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+  
+    .blocktext {
+      text-align: center;
+      display: inline-block; text-align: left;
+    }
+    .resize{
+      width: 100%;
+      height: auto;
+    }
+    .resize2{
+      width: 150px;
+      height: auto;
+    }
+    .resize3{
+      width: 100%;
+      height: auto;
+    }
+    .mapouter
+    {position:relative;text-align:right;width:100%;height:239px;}
+  
+    .gmap_canvas 
+    {overflow:hidden;background:none!important;width:100%;height:239px;}
+  
+    .gmap_iframe 
+                {height:239px!important;}
+  
+    .footballcard_img{
+      height: 300px; 
+      width: 500px;
+    }
+  
+    
+    .center {
+      height: 400px;
+      position: relative;
+    }
+  
+    .center_p {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .bg-oldyellow{
+      background-color: #E1DEC5;
+    }
+    
+    .bg-yellow{
+      background-color: #F5EEAE;
+    }
+    /* Spesific room end */ 
+  
+  
+  
+    *{
+      box-sizing: border-box;
+    }
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    /*Trying header burger*/
+    * {
+      padding: 0px;
+      margin: 0px;
+      transition: 0.5 s;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 30px;
+      background-color: #F7F2E9;
+      color: black;
+      height: 9vh;
+    }
+    nav .links {
+      display: flex;
+    }
+    .links p {
+      padding: 10px;
+    }
+    #mobile-menu-btn {
+      display: none;
+    }
+    .mobile-menu {
+      color: black;
+      display: none;
+      position: absolute;
+      right: 0;
+      height: 60vh;
+      width: 70vw;
+      background-color: #F7F2E9;
+    }
+  
+    @media (max-width: 600px) {
+      #mobile-menu-btn {
+        display: block;
+      }
+      nav small {
+        display: none;
+      }
+      .mobile-menu {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  
+  /*grid view*/
+   /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    

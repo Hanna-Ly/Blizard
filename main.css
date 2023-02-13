@@ -80,6 +80,11 @@
     border-bottom: 1px solid;
     color: #F14C2A;
   }
+
+  .dark-blue-border {
+    border-bottom: 1px solid;
+    color: #00008b;
+  }
   
   .dark-border {
     border-bottom: 1px solid;
@@ -88,6 +93,10 @@
   
   .orange{
     color: #F14C2A;
+  }
+
+  .dark-blue {
+    color: #00008b;
   }
   /* Rooms ends */ 
   
@@ -280,7 +289,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 30px 30px;
-      background-color: #F7F2E9;
+      background-color:  #add8e6;
       color: black;
       height: 9vh;
     }

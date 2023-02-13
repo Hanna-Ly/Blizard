@@ -341,4 +341,16 @@
     display: table;
     clear: both;
   }
-    
+  
+  .btn-primary, 
+  .btn-primary:hover, 
+  .btn-primary:active, 
+  .btn-primary:visited, 
+  .btn-primary:focus, 
+  .btn-primary:active:focus {
+    background-color: #00008b !important;
+  }
+
+  /* Popup*/
+
+ 
